@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda online</title>
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var favicon = document.createElement("link");
+            favicon.setAttribute("rel", "shortcut icon");
+            favicon.setAttribute("type", "image/png");
+            favicon.setAttribute("sizes", "");
+            favicon.setAttribute("href", "./img/logo titulo pagina.png");
+            document.head.appendChild(favicon);
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <div id="marca">
+                <h1 class="resaltado">Estilo Canino</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="actual"><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Sobre nosotros</a></li>
+                 
+                    
+
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <section id="boletin">
+        <div class="contenedor">
+            <h1>Nuestros Productos:</h1>
+
+        </div>
+    </section>
+    <style>
+        .productosimagenes {
+            width: 90%;
+            /* Puedes ajustar el ancho según tus necesidades */
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            /* Añade relleno para mayor claridad */
+        }
+    </style>
+    <div class="productosimagenes">
+        <div class="gallery__item"><a href="imagenes/imagen1.jpg" data-lightbox="imagen1"
+                data-title="Rascador monica"><img src="imagenes/imagen1.jpg" alt="" class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen2.jpg" data-lightbox="imagen1"
+                data-title="Fuente bebedera acero inox flor 3 LT"><img src="imagenes/imagen2.jpg" alt=""
+                    class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen3.jpg" data-lightbox="imagen1" data-title="Melamine bowl doble 2 x 800 ML
+            "><img src="imagenes/imagen3.jpg" alt="" class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen4.jpg" data-lightbox="imagen1" data-title="Short Hair Cat Furminator
+            "><img src="imagenes/imagen4.jpg" alt="" class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen5.png" data-lightbox="imagen1" data-title="Germinador de pasto 1 kit siembra
+            "><img src="imagenes/imagen5.png" alt="" class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen6.png" data-lightbox="imagen1" data-title="Baño sanitario - suez cats & birds 69 x 42 x 41 cm
+            "><img src="imagenes/imagen6.png" alt="" class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen7.jpg" data-lightbox="imagen1" data-title="Cama para gato Mpets Snugo Eco
+            "><img src="imagenes/imagen7.jpg" alt="" class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen8.jpg" data-lightbox="imagen1" data-title="Bandeja sanitaria con borde - sherbin - azul 49 x 39 x 20.9 cm
+            "><img src="imagenes/imagen8.jpg" alt="" class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen9.jpg" data-lightbox="imagen1" data-title="Rascador surf unidad
+            "><img src="imagenes/imagen9.jpg" alt="" class="gallery__img"></a></div>
+        <div class="gallery__item"><a href="imagenes/imagen10.jpg" data-lightbox="imagen1" data-title="Cama para gato Mpets cloud cushion
+            "><img src="imagenes/imagen10.jpg" alt="" class="gallery__img"></a>
+        </div>
+    </div>
+    <div class="dialogflow-messenger">
+        <style>
+          df-messenger {
+            --df-messenger-bot-message: #17375D;
+            --df-messenger-button-titlebar-color: #17375D;
+            --df-messenger-chat-background-color: #fafafa;
+            --df-messenger-font-color: white;
+            --df-messenger-send-icon: #17375D;
+            --df-messenger-user-message: #479b3d;
+            --df-messenger-minimized-chat-close-icon-color: #ff0000;
+          }
+        </style>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger chat-title="ChattyBot" agent-id="c2f04826-3d09-4911-9742-e91919b317cf"
+          chat-icon="https://i.ibb.co/7QfDf0x/Sin-t-tulo-14-de-diciembre-de-2023-12-09-33.png" df-messenger-bot-message=""
+          language-code="es" chat-width="500px" chat-height="500px"></df-messenger>
+      </div>
+    <section class="buttons">
+        <a href="https://www.instagram.com/estilocaninocl" target="_blank" class="fa fa-instagram"></a>
+    </section>
+
+    <footer class="footer">
+        <div class="container2">
+            <span>Estilo Canino, Copyright &copy; 2023</span>
+        </div>
+    </footer>
+</body>
+
+</html>
